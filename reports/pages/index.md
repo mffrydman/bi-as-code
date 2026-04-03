@@ -50,7 +50,7 @@ FROM campaign_performance
     title="Average CTR"
 />
 
-You are currently running **<Value data={overview_metrics} column=total_campaigns/>** campaigns across **<Value data={overview_metrics} column=total_channels/>** marketing channels, generating a total of **<Value data={overview_metrics} column=total_conversions fmt='#,##0'/>** conversions with an average click-through rate of **<Value data={overview_metrics} column=avg_ctr_pct/>%**.
+You are currently running **<Value data={overview_metrics} column=total_campaigns/>** campaigns across **<Value data={overview_metrics} column=total_channels/>** marketing channels, generating a total of **<Value data={overview_metrics} column=total_conversions fmt='#,##0'/>** conversions with an average click-through rate of **<Value data={overview_metrics} column=avg_ctr_pct/>**
 
 ---
 

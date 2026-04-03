@@ -1,0 +1,35 @@
+
+# dbt
+dbt/logs/*
+dbt/target/*
+dbt/dbt_packages/*
+dbt/.user.yml
+
+# Environment
+.env
+venv/
+
+# IDE
+.vscode/
+
+# Claude Code
+.claude/
+
+# Evidence
+reports/node_modules/
+reports/.evidence/
+package-lock.json
+
+# OS
+.DS_Store
+
+.evidence/template
+.svelte-kit
+build
+node_modules
+.DS_Store
+static/data
+*.options.yaml
+
+.evidence/meta
+reports/sources/marketing/connection.yaml
